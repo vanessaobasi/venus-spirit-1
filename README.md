@@ -86,6 +86,7 @@ Fabrication included:
 - Sandpaper and files used to shape and finish the fins
 - Fin attachment and alignment
 - Wood glue and epoxy for structural reinforcement
+- Blue tape and Gorilla Tape for assembly and reinforcement
 - Surface finishing and painting
 - Motor installation and retention
 - Recovery-system preparation
@@ -162,7 +163,9 @@ This iterative process provided hands-on experience with **flight testing, mecha
 
 ## 🪂 Recovery
 
-The rocket used a parachute recovery system and was successfully recovered following the certification flight.
+The rocket used a parachute recovery system with a **Nomex blanket** for heat protection and **"dog barf" (recycled cellulose insulation)** as recovery-wadding material.
+
+The recovery system was prepared to protect the rocket's internal components and recovery hardware during deployment.
 
 ![Recovered Venus Spirit 1](images/venus-spirit-1-recovery.jpeg)
 
