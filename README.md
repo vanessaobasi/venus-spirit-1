@@ -118,8 +118,6 @@ The first flight provided an opportunity to evaluate the physical rocket against
 
 [▶️ Watch First Test Flight](https://youtube.com/shorts/0nj64DS5vBE)
 
-![Venus Spirit 1 Flight](images/venus-spirit-flight.jpg)
-
 ---
 
 ### Level 1 Certification Flight — AeroTech I175WS-13A
@@ -145,6 +143,8 @@ The I175WS-13A uses **Super White Lightning** propellant, producing the characte
 The second flight reached approximately **1,200 ft**, completed successfully, and resulted in my **Level 1 High Power Rocketry certification**.
 
 [▶️ Watch Level 1 Certification Flight](https://youtube.com/shorts/v9hbOOTzBQM)
+
+![Venus Spirit 1 Flight](images/venus-spirit-1-flight.jpg)
 
 ---
 
@@ -219,7 +219,7 @@ venus-spirit-1/
 │   ├── venus-spirit-1-front.jpeg
 │   ├── venus-spirit-1-back.jpeg
 │   ├── venus-spirit-1-fabrication.jpg
-│   ├── venus-spirit-flight.jpg
+│   ├── venus-spirit-1-flight.jpg
 │   └── venus-spirit-1-recovery.jpeg
 ├── openrocket/
 │   └── venus-spirit-1.ork
