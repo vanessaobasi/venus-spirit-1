@@ -2,7 +2,7 @@
 
 A high-power model rocket designed and flight-simulated in OpenRocket, with a custom nose cone and elliptical fins 3D-modeled in Onshape.
 
-![Venus Spirit 1](images/venus-spirit-1.jpeg)
+![Venus Spirit 1](images/venus-spirit-1-final.jpeg)
 
 ## Project Overview
 
@@ -89,15 +89,13 @@ The stronger motor configuration produced a higher-performance flight, reaching 
 
 [▶️ Watch Level 1 Certification Flight](videos/level-1-certification-flight.mp4)
 
-![Level 1 Certification Flight](images/venus-spirit-1-flight.jpeg)
-
 ---
 
 ## 🪂 Recovery
 
 The rocket successfully deployed its parachute recovery system during flight and was recovered after landing.
 
-![Parachute Deployment](images/venus-spirit-1-parachute.jpeg)
+![Parachute Deployment](images/venus-spirit-1-flight.jpeg)
 
 ![Recovered Rocket](images/venus-spirit-1-recovery.jpeg)
 
@@ -152,15 +150,15 @@ This process provided hands-on experience connecting simulation, physical fabric
 ```text
 venus-spirit-1/
 ├── images/
-│   ├── venus-spirit-1.jpeg
-│   ├── openrocket-simulation.png
-│   ├── venus-spirit-1-fabrication.jpeg
-│   ├── venus-spirit-1-flight.jpeg
-│   ├── venus-spirit-1-parachute.jpeg
+│   ├── venus-spirit-1-final.jpeg
+│   ├── venus-spirit-1-openrocket.png
+│   ├── venus-spirit-1-front.jpeg
+│   ├── venus-spirit-1-back.jpeg
+│   ├── venus-spirit-1-fabrication.jpg
+│   ├── venus-spirit-flight.jpg
 │   └── venus-spirit-1-recovery.jpeg
-├── videos/
-│   ├── first-test-flight.mov
-│   └── level-1-certification-flight.mp4
+├── openrocket/
+│   └── venus-spirit-1.ork
 └── README.md
 ```
 
