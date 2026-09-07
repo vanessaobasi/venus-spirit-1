@@ -8,7 +8,7 @@ A high-power model rocket designed and flight-simulated in OpenRocket, with a cu
 
 Venus Spirit 1 is a high-power model rocket project that combined rocket design, flight simulation, 3D modeling, fabrication, and flight testing.
 
-The project progressed from an initial OpenRocket design and simulation to physical fabrication and two launch attempts. The first flight used an H100W motor, followed by a second flight using an I161W motor for my Level 1 certification flight. The second flight reached approximately 1,200 ft and was successfully recovered.
+The project progressed from an initial OpenRocket design and simulation to physical fabrication and two launches. The first flight used an H100W motor, followed by a second flight using an I161W motor for my Level 1 certification flight. The second flight reached approximately 1,200 ft and was successfully recovered.
 
 ### Project Name
 
@@ -38,6 +38,8 @@ The initial H100W flight configuration produced the following simulation results
 | Maximum Acceleration | 60.3 m/s² |
 | Motor | H100W |
 
+The OpenRocket project file is included in this repository for reference.
+
 ![OpenRocket Simulation](images/venus-spirit-1-openrocket.png)
 
 ### Onshape
@@ -48,6 +50,22 @@ Onshape was used to 3D-model custom rocket components, including the:
 - Elliptical fins
 
 These components were then fabricated and incorporated into the physical rocket.
+
+---
+
+## 🎀 Final Design
+
+The finished rocket is sometimes nicknamed the **"Barbie rocket"** because of its pink design.
+
+A golden butterfly on the nose cone represents the project's **"Spirit"**, while the **"This Barbie is an Engineer"** decal reflects the engineering theme behind the project.
+
+### Front — "Barbie Rocket"
+
+![Venus Spirit 1 Front](images/venus-spirit-1-front.jpeg)
+
+### Back — Venus Spirit 1
+
+![Venus Spirit 1 Back](images/venus-spirit-1-back.jpeg)
 
 ---
 
@@ -63,11 +81,11 @@ Fabrication included:
 - Fin attachment and alignment
 - Surface finishing and painting
 
-![Fabrication](images/venus-spirit-1-fabrication.jpeg)
+![Fabrication](images/venus-spirit-1-fabrication.jpg)
 
 ---
 
-## 🚀 Flight Testing
+## 🚀 Flight Testing & Iteration
 
 Venus Spirit 1 completed two launches as part of the testing and certification process.
 
@@ -77,27 +95,25 @@ The first launch used an **H100W motor** and served as the initial flight test o
 
 This flight provided an opportunity to evaluate the physical rocket against its OpenRocket simulation before the certification flight.
 
-[▶️ Watch First Test Flight](videos/first-test-flight.mov)
+[▶️ Watch First Test Flight](https://youtube.com/shorts/0nj64DS5vBE)
 
----
+![Venus Spirit 1 Flight](images/venus-spirit-flight.jpg)
 
 ### Level 1 Certification Flight — I161W
 
 For the second launch, the rocket was flown with an **I161W motor**.
 
-The stronger motor configuration produced a higher-performance flight, reaching approximately **1,200 ft apogee**. The rocket successfully completed the flight and was recovered, resulting in my **Level 1 High Power Rocketry certification**.
+The second flight reached approximately **1,200 ft** and successfully completed the flight and recovery, resulting in my **Level 1 High Power Rocketry certification**.
 
-[▶️ Watch Level 1 Certification Flight](videos/level-1-certification-flight.mp4)
+[▶️ Watch Level 1 Certification Flight](https://youtube.com/shorts/v9hbOOTzBQM)
 
 ---
 
 ## 🪂 Recovery
 
-The rocket successfully deployed its parachute recovery system during flight and was recovered after landing.
+The rocket successfully deployed its parachute recovery system and was recovered after landing.
 
-![Parachute Deployment](images/venus-spirit-1-flight.jpeg)
-
-![Recovered Rocket](images/venus-spirit-1-recovery.jpeg)
+![Recovered Venus Spirit 1](images/venus-spirit-1-recovery.jpeg)
 
 ---
 
@@ -107,7 +123,7 @@ The rocket successfully deployed its parachute recovery system during flight and
 - **331 m (~1,086 ft)** simulated apogee with H100W
 - **86.9 m/s** simulated maximum velocity
 - **60.3 m/s²** simulated maximum acceleration
-- **2 flight tests**
+- **2 launches**
 - **~1,200 ft** approximate apogee on Level 1 certification flight
 - **Level 1 High Power Rocketry certification**
 
@@ -167,4 +183,3 @@ venus-spirit-1/
 **Vanessa Obasi**  
 Computer Engineering Student | Embedded Systems & Hardware | High-Power Rocketry
 
-[GitHub](https://github.com/vanessaobasi)
