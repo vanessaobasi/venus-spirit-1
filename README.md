@@ -6,9 +6,9 @@ A high-power model rocket designed and flight-simulated in OpenRocket, with a cu
 
 ## Project Overview
 
-Venus Spirit 1 is a high-power model rocket project that combined rocket design, flight simulation, 3D modeling, fabrication, and flight testing.
+Venus Spirit 1 is a high-power model rocket project that combined rocket design, flight simulation, CAD modeling, fabrication, flight testing, and recovery.
 
-The project progressed from an initial OpenRocket design and simulation to physical fabrication and two launches. The first flight used an H100W motor, followed by a second flight using an I161W motor for my Level 1 certification flight. The second flight reached approximately 1,200 ft and was successfully recovered.
+The project progressed from an initial OpenRocket design and simulation to physical fabrication and two launches. The first flight served as a test of the completed rocket, while the second incorporated physical improvements and a different motor configuration for the Level 1 certification flight.
 
 ### Project Name
 
@@ -26,7 +26,7 @@ The project progressed from an initial OpenRocket design and simulation to physi
 
 OpenRocket was used to design the overall rocket configuration and simulate its flight characteristics.
 
-The initial H100W flight configuration produced the following simulation results:
+The initial configuration used an **AeroTech H100W-14A** motor and produced the following simulation results:
 
 | Parameter | Simulated Result |
 |---|---:|
@@ -36,10 +36,11 @@ The initial H100W flight configuration produced the following simulation results
 | Apogee | 331 m (~1,086 ft) |
 | Maximum Velocity | 86.9 m/s |
 | Maximum Acceleration | 60.3 m/s² |
-| Motor | H100W |
+| Motor | AeroTech H100W-14A |
 
+OpenRocket was also used to help determine the appropriate **ejection delay timing** for the recovery system based on the simulated flight.
 
-The OpenRocket project file is included in this repository for reference.
+The original OpenRocket project file is included in this repository so the design and simulation can be reviewed.
 
 ![OpenRocket Simulation](images/venus-spirit-1-openrocket.png)
 
@@ -56,7 +57,7 @@ These components were then fabricated and incorporated into the physical rocket.
 
 ## 🎀 Final Design
 
-The finished rocket is sometimes nicknamed the **"Barbie rocket"** because of its pink design.
+The finished rocket is sometimes nicknamed the **"Barbie rocket"** because of its pink design and engineering-themed details.
 
 A golden butterfly on the nose cone represents the project's **"Spirit"**, while the **"This Barbie is an Engineer"** decal reflects the engineering theme behind the project.
 
@@ -79,40 +80,89 @@ Fabrication included:
 - 3D-printed nose cone
 - 3D-printed elliptical fins
 - Rocket body assembly
+- Laser-cut centering rings attached to the motor tube
+- Circular saw used to cut the motor tube
+- Fin alignment using a fin alignment jig
+- Sandpaper and files used to shape and finish the fins
 - Fin attachment and alignment
+- Wood glue and epoxy for structural reinforcement
 - Surface finishing and painting
+- Motor installation and retention
+- Recovery-system preparation
 
 ![Fabrication](images/venus-spirit-1-fabrication.jpg)
 
 ---
 
-## 🚀 Flight Testing & Iteration
+## 🚀 Flight Testing
 
 Venus Spirit 1 completed two launches as part of the testing and certification process.
 
-### First Test Flight — H100W
+### First Test Flight — AeroTech H100W-14A
 
-The first launch used an **H100W motor** and served as the initial flight test of the completed rocket.
+The first launch used an **AeroTech H100W-14A** motor and served as the initial flight test of the completed rocket.
 
-This flight provided an opportunity to evaluate the physical rocket against its OpenRocket simulation before the certification flight.
+The H100W-14A has:
+
+| Specification | H100W-14A |
+|---|---:|
+| Total Impulse | 234 N·s |
+| Burn Time | 2.3 s |
+| Peak Thrust | 131 N |
+| Delay Time | 14 s |
+| Loaded Motor Weight | 261 g |
+
+The motor uses **White Lightning** propellant, producing the characteristic white smoke trail visible during the flight.
+
+The first flight provided an opportunity to evaluate the physical rocket against the OpenRocket simulation and identify areas for improvement.
 
 [▶️ Watch First Test Flight](https://youtube.com/shorts/0nj64DS5vBE)
 
 ![Venus Spirit 1 Flight](images/venus-spirit-flight.jpg)
 
-### Level 1 Certification Flight — I161W
+---
 
-For the second launch, the rocket was flown with an **I161W motor**.
+### Level 1 Certification Flight — AeroTech I175WS-13A
 
-The second flight reached approximately **1,200 ft** and successfully completed the flight and recovery, resulting in my **Level 1 High Power Rocketry certification**.
+After the first flight, I inspected the recovered rocket for potential sources of instability and found that the landing had slightly shifted one of the fins out of alignment despite the parachute recovery.
+
+I reattached and reinforced the affected fin using **wood glue and epoxy** to restore proper alignment and reduce the possibility of aerodynamic effects from a misaligned fin. I also placed greater attention on securing and aligning the motor within the mount to reduce the possibility of motor movement or off-axis thrust during flight.
+
+For the second flight, I changed the motor configuration to an **AeroTech I175WS-13A** to evaluate the rocket with a different motor configuration.
+
+The I175WS-13A has:
+
+| Specification | I175WS-13A |
+|---|---:|
+| Total Impulse | 333 N·s |
+| Burn Time | 1.9 s |
+| Peak Thrust | 260 N |
+| Delay Time | 13 s |
+| Loaded Motor Weight | 392 g |
+
+The I175WS-13A uses **Super White Lightning** propellant, producing the characteristic white smoke trail visible during the certification flight.
+
+The second flight reached approximately **1,200 ft**, completed successfully, and resulted in my **Level 1 High Power Rocketry certification**.
 
 [▶️ Watch Level 1 Certification Flight](https://youtube.com/shorts/v9hbOOTzBQM)
 
 ---
 
+## 🔄 Design Iteration
+
+The flight tests demonstrated the importance of validating simulated designs through physical testing and inspection.
+
+Following the initial flight, I used the recovered rocket to identify and correct a slightly misaligned fin and reinforced it with **wood glue and epoxy**. I also placed greater attention on **motor retention and alignment** to reduce the possibility of motor movement or off-axis thrust during the next flight.
+
+The certification flight incorporated these mechanical improvements and a different motor configuration, increasing total impulse from **234 N·s to 333 N·s** and peak thrust from **131 N to 260 N**.
+
+This iterative process provided hands-on experience with **flight testing, mechanical inspection, repair, motor selection, aerodynamic considerations, recovery-system planning, and engineering design iteration**.
+
+---
+
 ## 🪂 Recovery
 
-The rocket successfully deployed its parachute recovery system and was recovered after landing.
+The rocket used a parachute recovery system and was successfully recovered following the certification flight.
 
 ![Recovered Venus Spirit 1](images/venus-spirit-1-recovery.jpeg)
 
@@ -121,22 +171,12 @@ The rocket successfully deployed its parachute recovery system and was recovered
 ## 📊 Project Results
 
 - **1.65 calibers** of simulated stability
-- **331 m (~1,086 ft)** simulated apogee with H100W
+- **331 m (~1,086 ft)** simulated apogee with AeroTech H100W-14A
 - **86.9 m/s** simulated maximum velocity
 - **60.3 m/s²** simulated maximum acceleration
-- **2 launches**
+- **2 flight tests**
 - **~1,200 ft** approximate apogee on Level 1 certification flight
 - **Level 1 High Power Rocketry certification**
-
----
-
-## 🔄 Design Iteration
-
-The two launches provided an opportunity to compare the rocket's simulated performance with real-world flight testing and iterate the motor configuration.
-
-The first flight used an **H100W motor** as the initial test configuration. For the second flight, the motor was changed to an **I161W**, resulting in a higher-performance flight that reached approximately 1,200 ft and successfully completed the Level 1 certification flight.
-
-This process provided hands-on experience connecting simulation, physical fabrication, flight testing, and design iteration.
 
 ---
 
@@ -147,18 +187,25 @@ This process provided hands-on experience connecting simulation, physical fabric
 - Onshape CAD
 - Rocket stability analysis
 - Flight simulation
+- Recovery-system planning
 
 **Fabrication**
 - 3D printing
+- Laser cutting
+- Circular saw
+- Fin alignment jig
+- Hand finishing with files and sandpaper
 - Rocket assembly
-- Fin alignment
+- Wood glue and epoxy
 - Surface finishing
 
-**Testing**
+**Testing & Iteration**
 - Flight testing
+- Motor selection
+- Motor retention and alignment
 - Parachute recovery
-- Performance comparison
-- Iterative motor selection
+- Physical inspection and repair
+- Simulation-to-flight comparison
 
 ---
 
