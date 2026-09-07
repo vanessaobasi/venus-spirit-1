@@ -38,6 +38,7 @@ The initial H100W flight configuration produced the following simulation results
 | Maximum Acceleration | 60.3 m/s² |
 | Motor | H100W |
 
+
 The OpenRocket project file is included in this repository for reference.
 
 ![OpenRocket Simulation](images/venus-spirit-1-openrocket.png)
